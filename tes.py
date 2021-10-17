@@ -1,9 +1,9 @@
 from telethon import TelegramClient, events
 import re,json,requests
 from bs4 import BeautifulSoup as bs
-api_id = "8928750"
-api_hash = "67182b88607dd4747038d10b97f551b6"
-bot_token = "2067562057:AAHRl-OVKJmo2rkua-GPVTUyRuf5KcZ66yM"
+api_id = "YOUR API ID"
+api_hash = "YOUR API HASH"
+bot_token = "YOUR BOT TOKEN"
 
 bot = TelegramClient('bot',api_id,api_hash).start(bot_token=bot_token)
 
