@@ -26,7 +26,7 @@ heroku ps:scale worker=1
 
 
 ## Updates & support
-Follow Channel [@xolvacode](https://t.me/xolvacode) & [@channel_just](https://t.me/channel_justinfo)
+Follow Channel [@xolvacode](https://t.me/xolvacode) & [@channel_justinfo](https://t.me/channel_justinfo)
 
 ## Tutorial?
 <h1 align="center">YNTKTS:v</h1>
