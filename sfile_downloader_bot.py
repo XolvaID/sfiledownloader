@@ -1,9 +1,9 @@
 from telethon import TelegramClient, events
-import re,json,requests
+import re,json,requests,env
 from bs4 import BeautifulSoup as bs
-api_id = os.getenv('API_ID')
-api_hash = os.getenv('BOT_TOKEN')
-bot_token = os.getenv('BOT_TOKEN')
+api_id = env.api_id()
+api_hash = env.api_hash()
+bot_token = env.bot_token()
 
 bot = TelegramClient('bot',api_id,api_hash).start(bot_token=bot_token)
 
