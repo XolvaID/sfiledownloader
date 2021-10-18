@@ -1,4 +1,4 @@
-FROM XolvaID/main
+FROM xolvaid/main
 
 RUN git clone -b sfiledownloader https://github.com/XolvaID/sfiledownloader /home/sfile/ \
     && chmod 777 /home/sfiledownloader \
