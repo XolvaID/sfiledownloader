@@ -1,4 +1,4 @@
-FROM xolvaid/sfiledownloader
+FROM xolvaid:sfiledownloader
 
 RUN git clone https://github.com/xolvaid/sfiledownloader && cd sfiledownloader
 
