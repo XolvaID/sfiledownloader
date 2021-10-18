@@ -18,6 +18,8 @@ pip freeze > requirements.txt
 git add .
 git commit -am "Xolva Gamtenk"
 git push heroku main
+# Start Bot Using:
+heroku ps:scale worker=1
 ```
 
 
