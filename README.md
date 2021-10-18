@@ -17,7 +17,7 @@ heroku buildpacks:add heroku/python
 pip freeze > requirements.txt
 git add .
 git commit -am "Xolva Gamtenk"
-git push heroku origin
+git push heroku main
 ```
 
 
