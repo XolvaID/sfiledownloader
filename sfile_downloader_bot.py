@@ -12,7 +12,7 @@ Getting Trouble?, Contact https://t.me/xolvaid
 
 
 from telethon import TelegramClient, events
-import re,json,requests,env
+import re,json,requests,os
 from bs4 import BeautifulSoup as bs
 api_id = os.getenv("API_ID")
 api_hash = os.getenv("API_HASH")
