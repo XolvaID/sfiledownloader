@@ -1,0 +1,41 @@
+{
+  "name": "SFile Downloader Bof",
+  "description": "[Sfile-Downloader-Bot] Bot Telegram Yang Menggunakan Python 3.9+",
+  "logo": "https://telegra.ph/file/9e0bfabbfdb1c23297b8d.jpg",
+  "keywords": ["telegram", "userbot", "sfile", "modular", "python"],
+  "repository": "https://github.com/xolvaid/sfile",
+  "telegram": ["https://t.me/xolvaid", "https://t.me/xolvadev"],
+  "success_url": "https://t.me/xolvacode",
+  "stack": "container",
+  "env": {
+    "API_ID": {
+      "description": "Dapatkan API KEY di web my.telegram.org. Masukan yg APP ID Telegram",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Dapatkan Api hash di web my.telegram.org.",
+      "required": true
+    },
+    "HEROKU_APP_NAME": {
+      "description": "Nama App heroku, Nama App yang paling pertama di isi (liat paling atas)",
+      "required": true
+      "required": false
+    },
+    "BOT_TOKEN": {
+     "description": "Masukkan Bot Token yqng sudah kamu buat dari @botfather",
+     "required": true
+    },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    }
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
