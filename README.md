@@ -1,6 +1,6 @@
 # SFILE DOWNLOADER BOT
 
-<h3 align="center"Deploy To Heroku Using Terminal</h3>
+<h3 align="center">Deploy To Heroku Using Terminal</h3>
 
 ```
 apt-get install python3
@@ -10,6 +10,8 @@ npm i -g heroku
 heroku login -i # Buat Akun Terlebih Dahulu Di heroku.com
 git clone https://github.com/xolvaid/sfiledownloader
 cd sfiledownloader
+heroku git:remote -a sfiledownloader
+heroku buildpacks:add heroku/python
 pip freeze > requirements.txt
 git add .
 git commit -am "Xolva Gamtenk"
