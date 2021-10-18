@@ -1,5 +1,7 @@
 # SFILE DOWNLOADER BOT
 
+<h3 align="center">Deploy To Heroku Using Simple Method</h3>
+
 <h3 align="center">Deploy To Heroku Using Terminal</h3>
 
 ```
