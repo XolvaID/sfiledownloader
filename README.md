@@ -10,13 +10,14 @@ npm i -g heroku
 heroku login -i # Buat Akun Terlebih Dahulu Di heroku.com
 git clone https://github.com/xolvaid/sfiledownloader
 cd sfiledownloader
+rm -rf app.json && rm -rf Dockerfile && rm -rf heroku.yml
 heroku create sfiledownloader
 heroku git:remote -a sfiledownloader
 heroku buildpacks:add heroku/python
 pip freeze > requirements.txt
 git add .
 git commit -am "Xolva Gamtenk"
-git push heroku master
+git push heroku origin
 ```
 
 
