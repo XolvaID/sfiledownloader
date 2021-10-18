@@ -3,6 +3,22 @@
 <h3 align="center">Click Deploy Button Below</h3>
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/xolvaid/sfiledownloader"><img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy to Heroku" target="_blank"/></a></p>
 
+<h3 align="center">Or Use Terminal</h3>
+```
+apt-get install python3
+apt-get install git
+apt-get install nodejs
+npm i -g heroku
+heroku login -i # Buat Akun Terlebih Dahulu Di heroku.com
+git clone https://github.com/xolvaid/sfiledownloader
+cd sfiledownloader
+pip freeze > requirements.txt
+git add .
+git commit -am "Xolva Gamtenk"
+git push heroku master
+```
+
+
 ## Updates & support
 Follow Channel [@xolvacode](https://t.me/xolvacode) & [@channel_just](https://t.me/channel_justinfo)
 
