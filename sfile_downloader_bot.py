@@ -10,9 +10,9 @@ Getting Trouble?, Contact https://t.me/xolvaid
 from telethon import TelegramClient, events
 import re,json,requests,env
 from bs4 import BeautifulSoup as bs
-api_id = "YOUR API ID"
-api_hash = "YOUR API HASH"
-bot_token = "YOUR BOT TOKEN"
+api_id = os.getenv("API_ID")
+api_hash = os.getenv("API_HASH")
+bot_token = os.getenv("BOT_TOKEN")
 
 bot = TelegramClient('bot',api_id,api_hash).start(bot_token=bot_token)
 
