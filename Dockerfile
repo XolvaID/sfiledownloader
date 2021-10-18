@@ -1,4 +1,4 @@
-FROM xolvaid/sfiledownloader:sfiledownloader
+FROM python:3.10.0
 
 RUN git clone https://github.com/xolvaid/sfiledownloader && cd sfiledownloader
 
