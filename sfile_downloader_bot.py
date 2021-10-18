@@ -1,9 +1,18 @@
+"""
+FILL THE API VARIABLE WITH YOUR API HASH, API ID, AND BOT TOKEN
+
+exit?, Use : ctrl + x and ctrl + y
+
+Getting Trouble?, Contact https://t.me/xolvaid
+"""
+
+
 from telethon import TelegramClient, events
 import re,json,requests,env
 from bs4 import BeautifulSoup as bs
-api_id = env.api_id()
-api_hash = env.api_hash()
-bot_token = env.bot_token()
+api_id = "YOUR API ID"
+api_hash = "YOUR API HASH"
+bot_token = "YOUR BOT TOKEN"
 
 bot = TelegramClient('bot',api_id,api_hash).start(bot_token=bot_token)
 
