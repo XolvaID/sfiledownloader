@@ -10,6 +10,7 @@ npm i -g heroku
 heroku login -i # Buat Akun Terlebih Dahulu Di heroku.com
 git clone https://github.com/xolvaid/sfiledownloader
 cd sfiledownloader
+python3 env.py
 rm -rf app.json && rm -rf Dockerfile && rm -rf heroku.yml
 heroku create sfiledownloader
 heroku git:remote -a sfiledownloader
