@@ -1,9 +1,6 @@
 # SFILE DOWNLOADER BOT
 
-<h3 align="center">Click Deploy Button Below</h3>
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/xolvaid/sfiledownloader"><img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy to Heroku" target="_blank"/></a></p>
-
-<h3 align="center">Or Use Terminal</h3>
+<h3 align="center"Deploy To Heroku Using Terminal</h3>
 
 ```
 apt-get install python3
