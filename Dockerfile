@@ -1,11 +1,11 @@
-FROM mrismanaziz/main
+FROM XolvaID/main
 
-RUN git clone -b sfile https://github.com/mrismanaziz/Man-Userbot /home/sfile/ \
-    && chmod 777 /home/sfile \
-    && 
+RUN git clone -b sfiledownloader https://github.com/XolvaID/sfiledownloader /home/sfile/ \
+    && chmod 777 /home/sfiledownloader \
+    && mkdir /home/sfiledownloader/bin
 
-COPY ./sample_config.env ./config.env* /home/sfile/
+COPY ./sample_config.env ./config.env* /home/sfiledownloader/
 
-WORKDIR /home/sfile/
+WORKDIR /home/sfiledownloader/
 
 CMD ["python3", "sfile_downloader_bot.py"]
