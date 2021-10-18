@@ -40,4 +40,4 @@ Follow Channel [@xolvacode](https://t.me/xolvacode) & [@channel_justinfo](https:
   <a href="https://t.me/XolvaID" target="_blank"><img src="https://img.shields.io/badge/Telegram-%40XolvaID_-red?style=for-the-badge&logo=telegram"></a>
 </p>
 
-## Big Thanks For ![Kgyya][https://github.com/Kgyya] For Helping This Project.
+## Big Thanks For [Kgyya](https://github.com/Kgyya) For Helping This Project.
