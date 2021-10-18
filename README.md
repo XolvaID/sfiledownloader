@@ -1,7 +1,7 @@
 # SFILE DOWNLOADER BOT
 
 <h3 align="center">Click Deploy Button Below</h3>
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/xolvaid/sfile"><img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy to Heroku" target="_blank"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/xolvaid/sfiledownloader"><img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy to Heroku" target="_blank"/></a></p>
 
 ## Updates & support
 Follow Channel [@xolvacode](https://t.me/xolvacode) & [@channel_just](https://t.me/channel_justinfo)
