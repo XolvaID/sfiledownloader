@@ -2,6 +2,10 @@
 FILL THE API VARIABLE WITH YOUR API HASH, API ID, AND BOT TOKEN
 
 exit?, Use : ctrl + x and ctrl + y
+Then do:
+export BOT_TOKEN=YOUR_BOT_TOKEN
+export API_ID=YOUR_API_ID
+export API_HASH=YOUR_API_HASH
 
 Getting Trouble?, Contact https://t.me/xolvaid
 """
