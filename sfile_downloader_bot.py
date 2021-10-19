@@ -19,7 +19,7 @@ api_hash = os.getenv("API_HASH")
 bot_token = os.getenv("BOT_TOKEN")
 
 bot = TelegramClient('bot',api_id,api_hash).start(bot_token=bot_token)
-
+print("[+] BOT SUKSES DI DEPLOY, SILAHKAN PERGI KE BOT KAMU, LALU KETIK /help")
 @bot.on(events.NewMessage(pattern=r"/check(?: |$)(.*)"))
 async def _(event):
                 print(event)
