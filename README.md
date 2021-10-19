@@ -20,7 +20,6 @@ cd sfiledownloader
 export API_ID=YOUR_API_ID
 export API_HASH=YOUR_API_HASH
 export BOT_TOKEN=YOUR_BOT_TOKEN
-nano sfile_downloader_bot.py
 rm -rf app.json && rm -rf Dockerfile && rm -rf heroku.yml
 heroku create sfiledownloader
 heroku git:remote -a sfiledownloader
