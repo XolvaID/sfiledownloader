@@ -7,7 +7,7 @@ github.com/xolvaid & github.com/kgyya
 from telethon import TelegramClient, events
 import re,json,requests,os
 from bs4 import BeautifulSoup as bs
-api_id = os.get("API_ID")
+api_id = os.getenv("API_ID")
 api_hash = os.getenv("API_HASH")
 bot_token = os.getenv("BOT_TOKEN")
 ses = requests.Session()
