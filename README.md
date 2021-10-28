@@ -37,7 +37,7 @@ heroku ps:scale worker=1
 Follow Channel [@xolvacode](https://t.me/xolvacode) & [@channel_justinfo](https://t.me/channel_justinfo)
 
 ## Tutorial?
-<h1 align="center">YNTKTS:v</h1>
+YNTKTS
 
 ## Contact Me
 <p align="center">
