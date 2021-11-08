@@ -4,6 +4,7 @@ certifi==2021.10.8
 charset-normalizer==2.0.7
 colorama==0.4.4
 html5lib==1.1
+cryptg==0.2.post4
 idna==3.2
 mechanize==0.4.7
 Pillow==8.3.2
